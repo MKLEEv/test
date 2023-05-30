@@ -20,6 +20,6 @@ public class HelloController {
    public String helloajax() {
       return "{\"model\" : \"스프링부트(ajax)를 시작합니다.\"}";
    }
-   
+   //ㅎㅇㅎㅇ
    
 }
