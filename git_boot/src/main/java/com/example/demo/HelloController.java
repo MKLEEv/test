@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HelloController {
    @RequestMapping("/helloboot")
    public ModelAndView helloboot() {
-	  System.out.println("sts3 추가문자열");
+	  System.out.println("test2 브랜치 수정");
       ModelAndView mv = new ModelAndView();
       mv.addObject("model", "스프링부트를 시작합니다.");
       mv.setViewName("hello");
